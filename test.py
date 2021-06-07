@@ -23,5 +23,6 @@ class CalcTests(unittest.TestCase):
         self.assertAlmostEqual(calc.div(3, 4), 0.75)
         self.assertEqual(calc.div(4, -2), -2)
 
+
 if __name__ == '__main__':
     unittest.main()
